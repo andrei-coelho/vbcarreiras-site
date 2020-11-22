@@ -1,0 +1,15 @@
+{
+
+    "url_dev":"http://localhost/vbcarreiras-site/",
+    "url_prod":"https://vbcarreiras.com.br",
+    "production":false,
+
+    "banco":{
+        "driver":"mysql",
+        "host":"localhost",
+        "dbname":"vbcarreiras",
+        "user":"root",
+        "pass":""
+    }
+    
+}

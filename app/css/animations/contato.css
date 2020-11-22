@@ -1,0 +1,26 @@
+
+#contato-line1, #contato-line2 {
+    opacity: 0;
+}
+
+#contato-line1.linked {
+    opacity: 1;
+    animation: 1s linear infinite animate_reson_contato;
+}
+
+#contato-line2.linked {
+    opacity: 1;
+    animation: 1s linear infinite animate_reson_contato;
+}
+
+@keyframes animate_reson_contato {
+
+    from {
+        transform: translate(0%, 0%);
+        opacity: 1;
+    } to {
+        transform: translate(10%, -10%);
+        opacity: 0;
+    }
+
+}

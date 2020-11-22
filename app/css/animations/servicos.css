@@ -1,0 +1,19 @@
+#servicos-outside.linked {
+    transform-origin: 50% 51%;
+    animation: 2s linear infinite animate_rotate_servicos;
+}
+
+#servicos-inner.linked {
+    transform-origin: 50% 51%;
+    animation: 4s  linear infinite animate_rotate_servicos;
+}
+
+@keyframes animate_rotate_servicos {
+
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(-360deg);
+    }
+
+}
