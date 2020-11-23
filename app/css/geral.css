@@ -1,0 +1,52 @@
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.big {
+  font-family: 'Alata', sans-serif;
+}
+
+
+@media (min-width: 0px) {
+  #home-page {
+    height: 600px;
+  }
+  .big {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) { 
+  #home-page {
+    height: 700px;
+  }
+  .big {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) { 
+  #home-page {
+    height: 400px;
+  }
+  .big {
+    font-size: 30px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .big {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 1200px) { 
+  #home-page {
+    height: 500px;
+  }
+  .big {
+    font-size: 35px;
+  }
+}

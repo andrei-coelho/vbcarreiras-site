@@ -1,0 +1,21 @@
+
+
+.roda-dentada-empr {
+    transform-origin: 50% 32%;
+    animation: 2s linear infinite animate_rotate_servicos_page;
+}
+
+.roda-dentada-prof {
+    transform-origin: 50% 50%;
+    animation: 4s linear infinite animate_rotate_servicos_page;
+}
+
+@keyframes animate_rotate_servicos_page {
+
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(-360deg);
+    }
+
+}

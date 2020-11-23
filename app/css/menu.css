@@ -1,8 +1,11 @@
-.btn:focus {
-    outline: none !important;
-    box-shadow: none;
+
+.topbase-menu {
+    border-bottom: 1px solid #F02E67;
 }
 
+.social-menu img {
+    width: 30px;
+}
 
 .home-color, .quem-color, .servicos-color, .contato-color {
     fill:#4D4D4D;
@@ -27,4 +30,51 @@
 
 #btn-servicos:hover, #btn-servicos.linked {
     color:#8F45A0;
+}
+
+
+@media (min-width: 0px) {
+
+    .logo-top  {
+        width: 100%;
+    }
+
+    .navmenu {
+        position: fixed;
+        bottom: 0;
+        border-top: 1px solid #F02E67;
+    }
+}
+
+@media (min-width: 576px) { 
+    .navmenu {
+        position: static;
+        border-top: none;
+    }
+    .btn small {
+        font-size: 12px;
+        display: inline;
+    }
+}
+
+@media (min-width: 768px) { 
+    .btn small {
+        font-size: 13px;
+    }
+    .logo-top  {
+        width: 200px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .btn small {
+        font-size: 15px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .btn small {
+        font-size: 16px;
+    }
 }

@@ -14,9 +14,9 @@ var control = {
 
 var positions = {
     home:0,
-    quem:$("#quem-page").offset().top -80,
-    servicos:$("#servicos-page").offset().top -80,
-    contato:$("#contato-page").offset().top -80,
+    quem:$("#quem-page").offset().top -40,
+    servicos:$("#servicos-page").offset().top -40,
+    contato:$("#contato-page").offset().top -40,
 }
 
 $(window).scroll(function() {

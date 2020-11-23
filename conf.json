@@ -1,7 +1,7 @@
 {
 
     "url_dev":"http://localhost/vbcarreiras-site/",
-    "url_prod":"https://vbcarreiras.com.br",
+    "url_prod":"http://vbcarreiras.siteseguro.ws/",
     "production":false,
 
     "banco":{

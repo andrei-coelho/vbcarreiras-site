@@ -6,5 +6,5 @@ viewBox="0 0 80 80"
   <circle style="opacity:0;" id="cloud-home-vector" class="home-color linked" cx="54" cy="18" r="2"/>
   <circle style="opacity:0;" id="cloud-home-vector2" class="home-color linked" cx="54" cy="18" r="2"/>
  </g>
-</svg><br>
-<small>home</small> </a>
+</svg>
+<small class="d-none d-sm-block d-md-inline">home</small> </a>
