@@ -1,3 +1,5 @@
+
+
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
@@ -7,36 +9,98 @@
   font-family: 'Alata', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 @media (min-width: 0px) {
+
+  .img-banner-servicos {
+    width: 90%;
+    margin-left: 6%;
+    top: -40px;
+  }
+
+  .social-medias-right a img {
+    width: 40px;
+  }
+
+  .banner {
+    background-size:120%;
+  }
+
+  .img-banner {
+    width: 100%;
+  }
+
+  .separator-menu {
+    height: 45px;
+  }
+
   #home-page {
-    height: 600px;
+    height: 250px;
   }
   .big {
     font-size: 20px;
   }
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 458px) {
+  .banner {
+    background-size:100%;
+  }
   #home-page {
-    height: 700px;
+    height: 350px;
+  }
+
+  .img-banner {
+    width: 75%;
+  }
+}
+
+@media (min-width: 576px) { 
+
+  .img-banner-servicos {
+    width: 250px;
+    top: -60px;
+    margin-left: 0%;
+  }
+
+  #home-page {
+    height: 400px;
   }
   .big {
     font-size: 25px;
   }
+
+  .separator-menu {
+    height: 60px;
+  }
 }
 
 @media (min-width: 768px) { 
+
+  .social-medias-right a img {
+    width: 50px;
+  }
+
   #home-page {
     height: 400px;
   }
   .big {
     font-size: 30px;
   }
+
+  .separator-menu {
+    height: 53px;
+  }
   
 }
 
 @media (min-width: 992px) {
+  .img-banner {
+    width: 100%;
+  }
   .big {
     font-size: 33px;
   }

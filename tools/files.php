@@ -27,8 +27,8 @@ class Files {
         foreach(
             array_diff(
                 scandir($dir), 
-                array('..', '.', 'README.md', 'bootstrap.css',
-                'bootstrap.js', 'jquery.js', 'navigation.js'
+                array('..', '.', 'README.md', 'bootstrap.css', 'menu.css',
+                'bootstrap.js', 'jquery.js', 'geral.css', 'navigation.js'
                 )
             ) 
         as $file) {

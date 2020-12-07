@@ -6,7 +6,7 @@ function view($view, $vars = []) {
 }
 
 function _css($css) {
-    echo "<link rel=\"stylesheet\" href=\"".url(str_replace("../app/", "", $css))."?version=10\"/>";
+    echo "<link rel=\"stylesheet\" href=\"".url(str_replace("../app/", "", $css))."?version=13\"/>";
 }
 
 function _js($js) {

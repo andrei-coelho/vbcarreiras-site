@@ -36,12 +36,13 @@
 @media (min-width: 0px) {
 
     .logo-top  {
-        width: 100%;
+        width: 120px;
     }
 
     .navmenu {
         position: fixed;
         bottom: 0;
+        left: 0;
         border-top: 1px solid #F02E67;
     }
 }
@@ -54,6 +55,10 @@
     .btn small {
         font-size: 12px;
         display: inline;
+    }
+
+    .logo-top  {
+        width: 150px;
     }
 }
 

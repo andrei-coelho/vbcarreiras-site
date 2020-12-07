@@ -20,6 +20,7 @@
     <link rel="icon" type="image/png" href="<?php _url("img/favicon.png"); ?>"/>
     <link rel="stylesheet" href="<?php _url("css/bootstrap.css"); ?>"/>
     <link rel="stylesheet" href="<?php _url("css/geral.css"); ?>"/>
+    <link rel="stylesheet" href="<?php _url("css/menu.css"); ?>"/>
     <?php foreach(files_css() as $css) _css($css); ?>
 </head>
 <body>

@@ -1,27 +1,19 @@
-<div id="home-page" class="container mt-sm-3">
-    <div class="row">
+<div id="home-page" class="container-fluid p-0 mt-sm-3">
 
-        <div class="col-12 col-md-6">
-            <h1 class="big p-lg-2">Você já se perguntou
-            porque não é chamado
-            para entrevistas?</h1>
-            <p class="d-none d-md-block p-lg-2">Muitas pessoas não tem um CV que traduza a sua experiência. Você vê a vaga, acha que é para você, mas infelizmente essa informação não está clara no seu currículo.
-            E você não é chamado para entrevista e não entende o motivo.</p>
-            <p class="d-none d-md-block p-lg-2"><b>Ajudamos você a melhorar seu Currículo e perfil Linkedin e ter um melhor desempenho em entrevista</b></p>
+    <div class="row banner" style="
+        background-image:url('<?php _url("img/banners/banner-home.jpg"); ?>');
+        background-repeat:no-repeat;
+        background-position:right top;
+        ">
+
+        <div class="col-9 col-lg-5 pl-lg-5 ml-lg-5 mt-5 pb-lg-5" style="min-height: 300px;">
+            <h1 class="big p-lg-2 text-white ml-3" style="text-shadow: 0px 0px 4px #000000;">Gestão de Carreira e 
+Recolocação Profissional</h1>
+            <img class="mt-md-5 pb-5 img-banner ml-3" src="<?php _url("img/banners/img-banner-2.png"); ?>" alt="">
         </div>
 
-        <div class="col-12 col-md-6" 
-            style="background-image:url('<?php _url('img/banners/bg-home.png'); ?>');
-            background-repeat:no-repeat;
-            background-size: 100%;
-            ">
-            <img class=" w-100" src="<?php _url("img/banners/home-person.png"); ?>" alt="">
-        </div>
-
-        <div class="col-12 d-md-none">
-            <p>Muitas pessoas não tem um CV que traduza a sua experiência. Você vê a vaga, acha que é para você, mas infelizmente essa informação não está clara no seu currículo.
-            E você não é chamado para entrevista e não entende o motivo.</p>
-            <p class="p-lg-2"><b>Ajudamos você a melhorar seu Currículo e perfil Linkedin e ter um melhor desempenho em entrevista</b></p>
+        <div class="col-3 col-lg-7">
+            
         </div>
 
     </div>
