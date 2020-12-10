@@ -1,21 +1,32 @@
-<div class="d-none d-sm-block p-3 shadow"
+<div class="container-fluid">
 
-    style="position: fixed; right: 0px; z-index: 99999999; top: 130px; 
-    background-color: white;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    "
+    <div class="row">
+    
+        <div class="col">
+        
+            <div class="d-none d-sm-block p-3 shadow"
 
->
-<nav class="nav flex-column social-medias-right">
-    <a target="_blank" href="https://instagram.com/vb_carreiras_?igshid=1tswp4hbed5le"><img class="p-1" src="<?php _url("img/socialmedias/insta.jpg"); ?>" alt=""></a>
-    <a target="_blank" href="https://br.linkedin.com/in/vivianebuck"><img class="p-1" src="<?php _url("img/socialmedias/linkedin.jpg"); ?>" alt=""></a>
-    <a target="_blank" href="https://www.facebook.com/VivianeBuckCarreiras/"><img class="p-1" src="<?php _url("img/socialmedias/face.jpg"); ?>" alt=""></a>
-    <a target="_blank" href="http://bit.ly/vivanebuck"><img class="p-1" src="<?php _url("img/socialmedias/whatsapp.jpg"); ?>" alt=""></a>
-</nav>
+            style="position: fixed; right: 0px; z-index: 99999999; top: 130px; 
+            background-color: white;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            "
+
+            >
+            <nav class="nav flex-column social-medias-right">
+            <a target="_blank" href="https://instagram.com/vb_carreiras_?igshid=1tswp4hbed5le"><img class="p-1" src="<?php _url("img/socialmedias/insta.jpg"); ?>" alt=""></a>
+            <a target="_blank" href="https://br.linkedin.com/in/vivianebuck"><img class="p-1" src="<?php _url("img/socialmedias/linkedin.jpg"); ?>" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/VivianeBuckCarreiras/"><img class="p-1" src="<?php _url("img/socialmedias/face.jpg"); ?>" alt=""></a>
+            <a target="_blank" href="http://bit.ly/vivanebuck"><img class="p-1" src="<?php _url("img/socialmedias/whatsapp.jpg"); ?>" alt=""></a>
+            </nav>
+
+            </div>
+
+        
+        </div>
+    </div>
 
 </div>
-
 
 <div class="container-fluid position-fixed bg-white topbase-menu" style="z-index:999999">
     

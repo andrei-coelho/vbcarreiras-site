@@ -2,7 +2,6 @@
     <div class="row">
 
         <div class="col-12 col-md-6 pt-3 p-lg-5">
-            <h1 class="big d-md-none text-center pb-2" style="color: #F02E67;">Quem Somos</h1>
             <img class="w-75 mx-auto d-block" src="<?php _url("img/banners/big-logo-icon.png") ?>" alt="">
         </div>
 

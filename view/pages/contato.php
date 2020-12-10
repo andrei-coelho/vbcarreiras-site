@@ -1,3 +1,10 @@
+<script>
+
+    const ERROR = <?php echo (isset($req[0]) && $req[0] == 'error' ? "'".$req[1]."'" : 'false'); ?>;
+    const MESSAGE = <?php echo (isset($req[0]) && $req[0] == 'message' ? "'".$req[1]."'" : 'false'); ?>;
+
+</script>
+
 <div id="contato-page" class="container mt-3 border-top pt-5 pb-5">
     <div class="row justify-content-center">
 
@@ -18,25 +25,25 @@
         </div>
         <div class="col-12 col-md-8">
             
-            <form class="p-3 p-md-5 mt-3 bg-white" style="border: 4px solid #383282;">
+            <form id="form-email" action="<?php _url("send_email"); ?>" method="post" class="p-3 p-md-5 mt-3 bg-white" style="border: 4px solid #383282;">
                 <p><b>Envie-nos um mensagem:</b></p>
                 <div class="form-group">
-                    <label for="nomeControl">Nome</label>
-                    <input type="text" class="form-control" id="nomeControl" placeholder="Seu nome">
+                    <label for="nome">Nome</label>
+                    <input name="nome" type="text" class="form-control" id="nome" placeholder="Seu nome">
                 </div>
 
                 <div class="form-group">
-                    <label for="emailControl">Email</label>
-                    <input type="email" class="form-control" id="emailControl" aria-describedby="emailHelp" placeholder="Seu email">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
                     <small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu e-mail com ninguém.</small>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Mensagem:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" class="form-control" id="mensagem" rows="3"></textarea>
                 </div>
 
-                <button type="button" class="btn btn-primary">Enviar</button>
+                <button id="enviar" type="button" class="btn btn-primary">Enviar</button>
             </form>
                 
         </div>
